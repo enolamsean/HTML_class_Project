@@ -1,0 +1,72 @@
+body{
+	background-color:#93bcff; <<<<<<<--------------------------------------
+}
+
+.big{	font-size:10vw;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	z-index: 99;
+    position: absolute;
+  	-webkit-text-fill-color: none; 
+  	-webkit-text-stroke-width: 8px;
+  	-webkit-text-stroke-color: black;
+  	left:10vw;
+  	top:5vh;
+	}
+
+.splash{
+overflow: hidden;
+/*height:75%;*/
+background-color:#efefef;
+ position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+}
+
+img{
+
+}
+
+.header-img{
+	width:65vw;
+	z-index: 98;
+float: right;
+padding: 100px 0px;
+}
+
+#intro{
+ position:relative;
+      left: 0;
+      width: 100%;
+     /* top: 1080px
+*/
+}
+.min-wrapper{
+	margin:20px;
+padding: 20px;}
+p{
+		font-family: 'Roboto', sans-serif;
+font-size:16px;
+
+}
+
+section{
+  left: 0;
+      width: 100%;
+}
+
+.album__container{
+  position: relative;
+  display: flex;
+justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.music {
+  background-color: #f1f1f1;
+  width: auto;
+  margin: 2%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
