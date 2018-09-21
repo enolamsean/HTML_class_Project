@@ -1,7 +1,7 @@
 body{
 	background-color:#93bcff; <<<<<<<--------------------------------------
-padding:10%;
-margin: 5%;
+padding:15%;
+margin: 15%;
 }
 
 .big{	font-size:10vw;
@@ -17,7 +17,7 @@ margin: 5%;
   	left:10vw;
   	top:5vh;
 	}
-
+header{}
 .splash{
 overflow: hidden;
 /*height:75%;*/
@@ -40,6 +40,7 @@ padding: 100px 0px;
  position:relative;
       left: 0;
       width: 100%;
+      display: block;
      /* top: 1080px
 */
 }
@@ -57,13 +58,14 @@ section{
       width: 100%;
 }
 
+/*ALBUM SECTION CLASS*/
 .album__container{
-  top: 1160px;
+
   height: 100%;
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: DodgerBlue;
+  background-color: #a3a3a3;
 }
 .album__title{
   font-family: 'Roboto', sans-serif;
@@ -93,3 +95,50 @@ font-weight: 400;
   width: 40vw;
   height: 500px;
   margin: 2%;
+}
+
+
+/*MEMBER SECTION*/
+
+.member__card{
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #a3a3a3;
+}
+
+.member__contents{
+    font-family: 'Roboto', sans-serif;
+    object-fit: cover;
+
+font-size:.85rem;
+line-height: 1.5rem;
+padding: 2%;
+font-weight: 400;
+  background-color: #f1f1f1;
+  width:30vw;
+  height: 500px;
+  margin: 2%;
+}
+
+/*HISTORY SECTION*/
+.history__card{
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #a3a3a3;
+}
+
+.history__contents{
+  font-family: 'Roboto', sans-serif;
+  font-size:.85rem;
+  line-height: 1.5rem;
+  padding: 2%;
+  font-weight: 400;
+  background-color: #f1f1f1;
+  width: 60vw;
+  height: 500px;
+  margin: 2%;
+}
