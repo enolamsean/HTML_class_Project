@@ -1,10 +1,12 @@
 body{
 	background-color:#93bcff; <<<<<<<--------------------------------------
-padding:15%;
-margin: 15%;
+padding: 0% 15%;
+margin: 0% 15%;
 }
 
-.big{	font-size:10vw;
+.big{	
+padding-top: 25vh;
+  font-size:10vw;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
   font-weight: 900;
@@ -15,25 +17,30 @@ margin: 15%;
   	-webkit-text-stroke-width: 8px;
   	-webkit-text-stroke-color: black;
   	left:10vw;
-  	top:5vh;
-	}
+    line-height: 15rem;
+}
+
 header{}
 .splash{
 overflow: hidden;
 /*height:75%;*/
 background-color:#efefef;
- position: absolute;
+
       top: 0;
       left: 0;
       width: 100%;
+      height: 100vh;
 }
 
 
 .header-img{
 	width:65vw;
+  height: 100vh;
 	z-index: 98;
 float: right;
-padding: 100px 0px;
+  object-fit: cover;
+  filter: grayscale(100%);
+
 }
 
 #intro{
@@ -45,8 +52,16 @@ padding: 100px 0px;
 */
 }
 .min-wrapper{
-	margin:20px;
-padding: 20px;}
+padding: 7vh;
+height:100vh;
+letter-spacing: .05rem;
+font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #a3a3a3;
+  font-size: 2.25vh;
+}
+
 p{
 		font-family: 'Roboto', sans-serif;
 font-size:.85rem;
@@ -58,15 +73,20 @@ section{
       width: 100%;
 }
 
+/*-----------------------------------------------------*/
+
+
 /*ALBUM SECTION CLASS*/
 .album__container{
 
-  height: 100%;
+height:100vh;
   position: relative;
   display: flex;
   justify-content: center;
   background-color: #a3a3a3;
+  align-items: flex-start;
 }
+
 .album__title{
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -78,10 +98,11 @@ section{
 
 .album__art{
   width:40vw;
-  height: 500px;
+height:100vh;
   margin: 2%;
   object-fit: cover;
   padding: 2%;
+
 }
 .music__history {
     font-family: 'Roboto', sans-serif;
@@ -93,15 +114,15 @@ padding: 2%;
 font-weight: 400;
   background-color: #f1f1f1;
   width: 40vw;
-  height: 500px;
+height:100vh;
   margin: 2%;
 }
-
+/*-----------------------------------------------------*/
 
 /*MEMBER SECTION*/
 
 .member__card{
-  height: 100%;
+  height:100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -118,13 +139,15 @@ padding: 2%;
 font-weight: 400;
   background-color: #f1f1f1;
   width:30vw;
-  height: 500px;
+  height:100vh;
   margin: 2%;
 }
 
+/*-----------------------------------------------------*/
+
 /*HISTORY SECTION*/
 .history__card{
-  height: 100%;
+height:100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -139,6 +162,8 @@ font-weight: 400;
   font-weight: 400;
   background-color: #f1f1f1;
   width: 60vw;
-  height: 500px;
+height:100vh;
   margin: 2%;
 }
+
+/*-----------------------------------------------------*/
