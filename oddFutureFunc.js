@@ -1,15 +1,12 @@
-/* NAVIGATION */
-var picture = $('.picture');
 
-// Show full screen nav
-$('nav').on('click', function () {
-	$(this).toggleClass('show');
-});
-
-// On click, scroll to appropriate select
-$('ul li').on('click', function () {
-	var thisPicture = $(this);
-	var number = thisPicture.text();
-
-	$('html, body').stop().animate({scrollTop: $('.picture'+number).position().top}, 400);
-});
+function menuToggle(){
+	var y = document.getElementById("menu")
+	var x = document.getElementById("nav");
+	if(x.style.top === "-96.25%"){
+		x.style.top = "0%";
+		y.style.opacity = "0";
+	} else{
+		x.style.top = "-96.25%";
+		y.style.opacity = "1";
+	}
+}

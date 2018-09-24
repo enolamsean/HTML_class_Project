@@ -6,19 +6,29 @@
 	<title>The History Of Odd Future</title>
 </head>
 <body>
-	<script type="text/javascript" src="oddFutureFunc.js"></script>
+	<div class="attribution">Credits</div>
 		<!--- THIS IS THE NAV-->
 
-	<nav>
+	<nav id="nav" onclick="menuToggle()">
+		<div class="close">close</div>
 		<ul>
-			<li>Odd Future</li>
-			<li>Tyler the Creator</li>
-			<li>Frank Ocean</li>
-			<li>Domo Genesis</li>
-			<li>Hodgy Beats</li>
-			<li>Attribution</li>
-			<li>Earl Sweatshirt</li>
+			<li><a href="#" id="a1">Odd Future</a><li>
+			<li><a href="#" id="a2">Tyler the Creator</a></li>
+			<li><a href="#" id="a3">Frank Ocean</a></li>
+			<li><a href="#" id="a4">Domo Genesis</a></li>
+			<li><a href="#" id="a5">Hodgy Beats</a></li>
+			<li><a href="#" id="a6">Earl Sweatshirt</a></li>
+			<li><a href="#" id="a7">Attribution</a></li>
+			
 		</ul>
+		<div id="menu" class="menu">Menu</div>
+<!--<a href="">	Odd Future</a>
+			<a href="">Tyler the Creator</a>
+			<a href="">Frank Ocean</a>
+			<a href="">Domo Genesis</a>
+			<a href="">Hodgy Beats</a>
+			<a href="">Attribution</a>
+			<a href="">Earl Sweatshirt</a>-->
 	</nav>
 
 
@@ -35,10 +45,12 @@
 
 
 <div class="album__container">
-	<div class="album__art"><img class="album__art" src="images\oddFutureMixTape.png">
+	<div class="album__art"><!--<img class="album__art" src="images\oddFutureMixTape.png">-->
+		<iframe src="https://open.spotify.com/embed/album/2EL4Tqtj9eXAjxcKPDIyu1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		
 </div>
 
-	<div class="music__history">
+	<div class="album__history">
 
 		<div class="album__title"><i>The Odd Future Tape</i></div>
 
@@ -57,6 +69,13 @@
   <text x="5" y="1" text-anchor="middle" font-size="1" fill="none" stroke-width=".015" stroke="black" font-family="sans-serif">ODD</text>
 </svg>-->
 
+
+
+
+
+<!--THIS IS WHERE THE SCRIPT IS-->
+
+<script type="text/javascript" src="oddFutureFunc.js"></script>
 
 </body>
 </html>
