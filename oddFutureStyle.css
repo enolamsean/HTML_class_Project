@@ -1,10 +1,19 @@
+:root{
+
+  --album-height: 50vh;
+}
+
+
+
 body{
 	background-color:#93bcff; <<<<<<<--------------------------------------
 /*padding: 0% 15%;
 margin: 0% 15%;*/
   margin: 0;
-  padding: 0;
+  padding: 1vh 1vw;
 }
+
+
 
 
 .attribution{
@@ -13,7 +22,7 @@ margin: 0% 15%;*/
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-style: italic;
-  font-size: 1vh;
+  font-size: 2vh;
   z-index: 119;
   position: fixed;
   left: 2.7vw;
@@ -22,7 +31,7 @@ margin: 0% 15%;*/
 
 .close{
 position: fixed;
- font-size:1.5vh;
+ font-size:2vh;
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -34,7 +43,7 @@ position: fixed;
 
 .menu{
   position: fixed;
-  font-size:1.5vh;
+  font-size:2vh;
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -42,7 +51,7 @@ position: fixed;
   align-self: right;
   text-align: center;
   left: 50%;
-  top: 1vh;
+  top: 2.5%;
    -webkit-transition: opacity 0.25s ease-in-out;
        -moz-transition: opacity 0.25s ease-in-out;
          -o-transition: opacity 0.25s ease-in-out;
@@ -51,6 +60,7 @@ position: fixed;
 
 a{
   color: inherit;
+  text-decoration: none;
 }
 /*-----------------------------------------------------
 
@@ -59,13 +69,14 @@ NAV*/
 nav {
   position: fixed;
   overflow: hidden;
-  top: -96.25%;
+  top: -93.25%;
   width: 100%;
   height: 100%;
   background: #41f45f;
   -webkit-transition: all 0.5s;
   z-index: 120;
   left: 0;
+   text-decoration: none !important;
 }
 
 ul{  
@@ -78,9 +89,9 @@ ul{
   font-style: italic;
   text-align: center;
   padding: 5vh;
-  line-height: 6.5rem;
+
   color: transparent;
-  -webkit-text-stroke: 2.5px black;
+  -webkit-text-stroke: 2px black;
 
 }
 
@@ -115,7 +126,6 @@ ALBUM SECTION CLASS*/
   text-decoration: underline;
 }
 
-header{}
 .splash{
   overflow: hidden;
 /*height:75%;*/
@@ -147,21 +157,17 @@ header{}
      /* top: 1080px
 */
 }
+
 .min-wrapper{
-  padding: 6.75vh 10vw;
+  padding: 8vh 13.35vw;
   letter-spacing: .05rem;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  background-color: #a3a3a3;
-  font-size: 2.25vh;
+  /*background-color: #a3a3a3;*/
+  font-size: 2.1vw;
 }
 
-p{
-	font-family: 'Roboto', sans-serif;
-  font-size:.85rem;
-
-}
 
 section{
   left: 0;
@@ -173,8 +179,8 @@ section{
 
 /*ALBUM SECTION CLASS*/
 .album__container{
-  padding: 6.75vh 10vw;
-  height:100vh;
+  padding: 8vh 10vw;
+
   position: relative;
   display: flex;
   justify-content: center;
@@ -182,13 +188,15 @@ section{
   align-items: flex-start;
 }
 
-.album__title{
+.subhead{
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 2rem;
   line-height: 3rem;
   text-transform: uppercase;
   padding-bottom: 3vh;
+  font-style: italic;
+
 }
 
 .album__art{
@@ -202,22 +210,28 @@ section{
 .album__history {
   font-family: 'Roboto', sans-serif;
   object-fit: cover;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.2vw;
+    line-height: 1.5rem;
   padding: 2%;
   font-weight: 400;
   background-color: #f1f1f1;
   width: 40vw;
-  height:100vh;
+height:var(--album-height);
   margin: 2%;
+}
+
+iframe{
+ height:var(--album-height);
+  width: 40vw;  padding: 5%;
+
+
 }
 /*-----------------------------------------------------*/
 
 /*MEMBER SECTION*/
 
 .member__card{
-  height:100vh;
-  padding: 15vw;
+  padding: 8vh 10vw;
   position: relative;
   display: flex;
   justify-content: center;
@@ -233,7 +247,6 @@ section{
   font-weight: 400;
   background-color: #f1f1f1;
   width:30vw;
-  height:100vh;
   margin: 2%;
 }
 
@@ -241,8 +254,7 @@ section{
 
 /*HISTORY SECTION*/
 .history__card{
-  height:100vh;
-  padding: 15vw;
+  padding: 8vh 10vw;
   position: relative;
   display: flex;
   justify-content: center;
@@ -257,9 +269,17 @@ section{
   font-weight: 400;
   background-color: #f1f1f1;
   width: 60vw;
-  height:100vh;
   margin: 2%;
 }
 
-/*-----------------------------------------------------*/
+/*-----------------------------------------------------
+
+FOOTER*/
+footer{
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  left: 0;
+   overflow: hidden;
+}
 
