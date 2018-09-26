@@ -5,12 +5,33 @@ orange: #FDAA8D;
 Blue: #85EAE9;
 red: #FF424F;
 tan: #F7F0DE;
+yalloe:   #FADF6D;
 */
 :root{
 
   --album-height: 50vh;
 }
 
+.tyler{
+   -webkit-text-stroke-color: #85EAE9!important;
+  color: #85EAE9!important;
+}
+.frank{
+     -webkit-text-stroke-color: #FDAA8D !important;
+  color: #FDAA8D !important;
+}
+
+.domo{
+       -webkit-text-stroke-color: #FF424F !important;
+  color: #FF424F !important;
+}
+
+
+.earl{
+
+       -webkit-text-stroke-color:  #FADF6D !important;
+  color: #FADF6D !important;
+}
 
 
 body{
@@ -21,11 +42,9 @@ margin: 0% 15%;*/
   /*padding: 1vh 1vw;*/
 }
 
-
-
-
 .attribution{
   writing-mode: vertical-lr;
+  position: absolute;
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -135,6 +154,7 @@ ALBUM SECTION CLASS*/
   text-decoration: underline;
 }
 
+
 .splash{
   overflow: hidden;
 /*height:75%;
@@ -190,13 +210,11 @@ section{
 
 /*ALBUM SECTION CLASS*/
 .album__container{
-  padding: 8vh 10vw;
-
-  position: relative;
+  padding: 10vh 10vw;
   display: flex;
   justify-content: center;
   /*background-color: #a3a3a3;*/
-  align-items: flex-start;
+  
 }
 
 .subhead{
@@ -222,7 +240,6 @@ section{
   font-family: 'Roboto', sans-serif;
   object-fit: cover;
     font-size: 1.2vw;
-    line-height: 1.5rem;
   padding: 2%;
   font-weight: 400;
   /*background-color: #f1f1f1;*/
@@ -234,6 +251,7 @@ height:var(--album-height);
 iframe{
  height:var(--album-height);
   width: 40vw;  padding: 5%;
+  z-index: 1;
 }
 
 .year{
@@ -250,7 +268,28 @@ iframe{
   opacity: .35;
 padding-left: 70vw;
 padding-top: 26vh;
+z-index: 0;
 }
+
+.video__container{
+    padding: 10vh 0vh;
+   overflow: hidden;
+
+  position: relative;
+  /*background-color: #a3a3a3;*/
+  align-items: flex-start;
+}
+  .video{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75vh;
+    left: 0;
+    overflow: hidden;
+   z-index: 100;
+
+
+  }
 /*-----------------------------------------------------*/
 
 /*MEMBER SECTION*/
