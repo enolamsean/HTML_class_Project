@@ -32,6 +32,10 @@ yalloe:   #FADF6D;
        -webkit-text-stroke-color:  #FADF6D !important;
   color: #FADF6D !important;
 }
+.hodgy{
+  -webkit-text-stroke-color:  #FADF6D !important;
+  color: #FADF6D !important;
+}
 
 
 body{
@@ -42,7 +46,7 @@ margin: 0% 15%;*/
   /*padding: 1vh 1vw;*/
 }
 
-.attribution{
+.credits{
   writing-mode: vertical-lr;
   position: absolute;
   font-weight: 900;
@@ -57,7 +61,6 @@ margin: 0% 15%;*/
 }
 
 .close{
-position: fixed;
  font-size:2vh;
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
@@ -66,9 +69,14 @@ position: fixed;
   align-self: right;
   padding: 7vh;
   padding-left: 92vw;
+    cursor: pointer;
+        float: right;
+
+
 }
 
 .menu{
+  cursor: pointer;
   position: fixed;
   font-size:2vh;
   font-weight: 900;
@@ -163,7 +171,7 @@ ALBUM SECTION CLASS*/
   left: 0;
   width: 100%;
   height: 85vh;
-    padding: 6.75vh 0vw;
+    padding: 2vh 0vw;
 
 }
 
@@ -264,7 +272,7 @@ iframe{
   font-style: italic;
   position:absolute;
   color: transparent;
-  -webkit-text-stroke: 2.7px #00EE8E;
+  -webkit-text-stroke: 10% #00EE8E;
   opacity: .35;
 padding-left: 70vw;
 padding-top: 26vh;
@@ -313,6 +321,21 @@ z-index: 0;
   width:30vw;
   margin: 2%;
 }
+.member__img{
+height: 45vh;
+  overflow: hidden;
+    filter: grayscale(100%);
+    overflow: hidden;
+}
+
+.member__img:hover{
+transform: scale(1.1);
+  overflow: hidden;
+      filter: grayscale(0%);
+    transition: .5s ease-in-out;
+    transform-origin: center;
+}
+
 
 /*-----------------------------------------------------*/
 
