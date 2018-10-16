@@ -323,7 +323,7 @@ iframe{
   font-style: italic;
   position:absolute;
   color: transparent;
-  -webkit-text-stroke: 10% #00EE8E;
+  -webkit-text-stroke: 5px #00EE8E;
   opacity: .35;
 padding-left: 70vw;
 padding-top: 26vh;
