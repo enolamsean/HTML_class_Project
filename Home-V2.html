@@ -4,6 +4,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<link rel="stylesheet" type="text/css" href="oddFutureStyle-v2.css">
 
@@ -71,9 +72,11 @@
 
 	<div class="call__out" >
 		<img class="call__out__img" src="images\tyler-call-out.jpg" alt="Tyler_The_Creator" title="Tyler_The_Creator">
-
+<div data-aos="fade-in"
+     data-aos-duration="10000"
+    data-aos-easing="ease-in-out">
 			<div class="call__out__text"><div class="call__out__title">Tyler the creator</div> The co-founder and de facto leader of the alternative hip hop collective Odd Future, and has performed on and produced songs for nearly every Odd Future release. </div>
-	</div>
+	</div></div>
 
 
 
@@ -83,9 +86,14 @@
 <div class="member__card">
 	
 	<div class="member__contents" >
+	
 		<img class="member__img__1" src="images\Jasper-Dolphin-1.jpg" alt="Jasper_Dolphin" title="Jasper_Dolphin">
 
-		<img class="member__img__2" src="images\Jasper-Dolphin-2.jpg" alt="Jasper_Dolphin" title="Jasper_Dolphin">
+<div data-aos="fade-right"
+     data-aos-duration="1050"
+    data-aos-easing="ease-in-out">
+		<img class="member__img__2" src="images\Jasper-Dolphin-2.jpg" alt="Jasper_Dolphin" title="Jasper_Dolphin"></div>
+
 		<img class="member__img__3" src="images\Jasper-Dolphin-3.jpg" alt="Jasper_Dolphin" title="Jasper_Dolphin">
 
 
@@ -112,6 +120,15 @@
 	<div class="year">2011</div>
 </div>
 
+
+
+	<div class="call__out" >
+		<img class="call__out__img" src="images\frank-ocean-home.jpg" alt="Tyler_The_Creator" title="Tyler_The_Creator">
+<div data-aos="fade-in"
+     data-aos-duration="10000"
+    data-aos-easing="ease-in-out">
+			<div class="call__out__text"><div class="call__out__title">Frank Ocean</div> Ocean began his musical career as a ghostwriter, prior to joining hip hop collective Odd Future in 2010. His contributions to the group have been critically lauded, and allowed Ocean to release his debut mixtape Nostalgia, Ultra a year later. </div>
+	</div></div>
 <!--
 
 
@@ -251,6 +268,10 @@ Ocean began his musical career as a ghostwriter, prior to joining hip hop collec
 <!--THIS IS WHERE THE SCRIPT IS-->
 
 <script type="text/javascript" src="oddFutureFunc.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 <!--<footer></footer>-->

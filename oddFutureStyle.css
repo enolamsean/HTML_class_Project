@@ -470,6 +470,62 @@ line-height: 2rem !important;
 .attribution:hover{
       background-position: -100% 0;
         background-image: linear-gradient(to right, rgba(250,0,0,0) 50% , #272b33 50%);
+}
+
+form{
+  padding: 5% 5% 10% 5%;
+  padding-left: 18%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 2.5rem;
+    background-color: rgba(186, 186, 186,.3);
+      font-weight: 500;
+}
 
 
+p{
+  font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+          font-weight: 200;
+
+  }
+
+.button{
+  font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding: 1.75% 3%;
+    border: none;
+    text-decoration:none;
+    background-color: transparent;
+    border-style: solid;
+border-width: 1.5px;
+    border-color: #272b33;
+    color: #272b33;
+  transition:  0.2s ease-out;
+
+  }
+.button:hover{
+    text-decoration:none;
+    background-color: #272b33;
+    border-style: solid;
+border-width: 1.5px;
+    border-color: #272b33;
+    color: #FFFFFF;
+  }
+textarea{
+  padding: 3px 8px;
+  width: 75%;
+  height: 75px;
+      border: 1px solid #ccc;
+
+  border-radius: 4px;
+}
+
+input[type=text]{
+  padding: 3px 8px;
+  width: 75%;
+  height: 25px;
+      border: 1px solid #ccc;
+
+  border-radius: 4px;
 }
