@@ -383,12 +383,42 @@ height: 75vh;
   object-fit: cover;
   font-size:17px;
   line-height: 1.5rem;
-  padding: 8% 2%;
+  padding: 25px 2%;
   font-weight: 400;
   /*background-color: #f1f1f1;*/
   width:30vw;
   margin: 2%;
 
+}
+
+.member__img__5{
+height: 35vh;
+width: 42vh;
+object-fit: cover;
+  overflow: hidden;
+    filter: grayscale(100%);
+    overflow: hidden;
+      align-items: center;
+      z-index: -1;
+      position: absolute;
+      bottom: 50px;
+      right: 550px;
+          box-shadow: 6px 6px 10px 0 rgba(0,0,0,.1);
+}
+
+.member__img__4{
+height: 200px;
+width: 200px;
+object-fit: cover;
+  overflow: hidden;
+    filter: grayscale(100%);
+    overflow: hidden;
+      align-items: center;
+      z-index: 2;
+      position: absolute;
+      bottom: 50px;
+      right: 12%;
+          box-shadow: 6px 6px 10px 0 rgba(0,0,0,.1);
 }
 
 .member__img__3{
@@ -401,10 +431,9 @@ object-fit: cover;
       align-items: center;
       z-index: 2;
       position: absolute;
-      bottom: -10px;
-      left: 38%;
+      bottom: 50px;
+      left: 34%;
           box-shadow: 6px 6px 10px 0 rgba(0,0,0,.1);
-
 }
 
 .member__img__2{
@@ -417,7 +446,6 @@ object-fit: cover;
     overflow: hidden;
       align-items: center;
       z-index: 2;
-      position: absolute;
                 box-shadow: 6px 6px 10px 0 rgba(0,0,0,.1);
     transition: all .5s ease-in-out;
 
@@ -426,8 +454,8 @@ object-fit: cover;
 .member__img__1{
   height: 18vh;
   width: 15vw;
-  top: 19%;
-  left: 7%;
+  top: 70px;
+  left: 95px;
   object-fit: cover;
   overflow: hidden;
   filter: grayscale(100%);
@@ -439,8 +467,6 @@ object-fit: cover;
 
 }
 
-
-
 .member__img__2:hover{
 transform: scale(1.025);
   overflow: hidden;
@@ -448,7 +474,10 @@ transform: scale(1.025);
     transform-origin: center;
 }
 
-
+.spacer{
+  width: 100%;
+  height: 115px;
+}
 /*-----------------------------------------------------*/
 
 /*call out*/
@@ -456,6 +485,11 @@ transform: scale(1.025);
 .call__out{
   width: 100%;
 height: 75vh;
+padding: 75px 0px;
+
+  background-color: #f9f9f9;
+
+
 }
 
 
@@ -574,6 +608,7 @@ li:hover{
 
 font-size: 1.5rem !important;
 line-height: 2rem !important;
+padding-bottom: 0px !important;
   background-position: 0% 1;
   background-size: 400% auto;
   color: #272b33;
@@ -587,4 +622,8 @@ line-height: 2rem !important;
         background-image: linear-gradient(to right, rgba(250,0,0,0) 50% , #272b33 50%);
 
 
+}
+
+hr{
+  padding: 5px;
 }
