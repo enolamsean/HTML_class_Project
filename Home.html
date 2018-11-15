@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" type="text/css" href="oddFutureStyle.css">
 <meta name = “description” content="This site is an informational site about the rap group Odd Future. Touching on all the members of the group and their music. As well expanding on a select few memebrs.">
-<meta name = “description” content="odd Future, rap group, Tyler the creator, Hodgy, Earl Sweatshirt, Domo Genesis, Frank Ocean, Hip Hop">
+<meta name = “keywords” content="odd Future, rap group, Tyler the creator, Hodgy, Earl Sweatshirt, Domo Genesis, Frank Ocean, Hip Hop">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>The History Of Odd Future</title>
@@ -34,11 +34,11 @@
 
 
 	<!--- CONTENT -->
-<!--
+
 <header>
 	<nav role="navigation">
 	<div id="navTwo">
-	   <input type="checkbox"/>
+	   <input type="checkbox" onclick="HamburgerFunct()" />
 	<span></span>
     <span></span>
     <span></span>
@@ -53,7 +53,7 @@
 		</ul>
 	</div>
 </nav>
-</header>-->
+</header>
 	<div class="splash">
 		<div class="big"><p class="the__history">The History of<br></p><i>Odd Future</i></div>
 			<img class="header-img-home" src="images\Odd-Future-cover.jpg" alt="Odd_Future_cover" title="Odd_Future_cover">
@@ -294,8 +294,14 @@
   <script>
     AOS.init();
   </script>
-  <script type="text/javascript."></script>
-
+  <script>    	function HamburgerFunct() {
+    if (document.getElementById("navTwo").style.width = 60px) {
+        document.getElementById('navTwo').style.width = 100%;
+        document.getElementById('navTwo').style.height = 100%;
+    } else {
+        document.getElementById('navTwo').style.width = 60px;
+        document.getElementById('navTwo').style.height = 60px;
+    }}</script>
 </body>
 <footer></footer>
 </html>
